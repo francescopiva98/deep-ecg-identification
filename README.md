@@ -8,13 +8,13 @@ At the same time, Deep Neural Networks (DNNs) have proven highly effective in ex
 ## Aim
 This project explores the use of the Polar H10 chest strap as a wearable sensor for accessible ECG acquisition, with the goal of performing subject identification among a group of volountary participants.
 
-📂 Dataset
+## 📂 Dataset
 - 15 subjects (23 ± 3 years old) with no cardiovascular diseases
 - Data have been acquired with Polar H10 chest strap in two conditions:
   * Rest dataset (≥120 s, seated)
   * Task dataset (≥150 s: rest → jumping jacks → recovery)
 
-🛠 Pre‑processing Pipeline
+## 🛠 Pre‑processing Pipeline
 - Interpolation for variable sampling frequency
 - Baseline wander removal (median filters)
 - Normalization & band‑pass filtering (0.667–65 Hz)
@@ -22,7 +22,7 @@ This project explores the use of the Polar H10 chest strap as a wearable sensor 
 - Segment merging (concatenation of 12 segments, smoothing)
 - Spectrogram generation (Tukey window, replicated to 42×42 images)
   
-⚙️ Deep Learning Models
+## ⚙️ Deep Learning Models
 - Fully‑Connected NN (Dense NN) → lightweight, fast, good on rest data
 - Recurrent NN (RNN) → captures temporal dynamics, best overall performance
 - 2D CNN → spectrogram‑based, underperformed, requires further investigation
