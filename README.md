@@ -1,4 +1,4 @@
-# Wearable ECG for Subject Identification using Deep Learning
+# Wearable ECG for Subject Identification using Deep Learning 🫀
 ## 📌 Overview
 The science of biometric recognition leverages statistical techniques to uniquely identify individuals based on their physical and behavioral characteristics. This approach provides secure and effective alternatives to traditional authentication methods, addressing critical issues in access control.
 Among the many biometric identifiers—such as fingerprints, facial features, retinal structures, or voice—each must be tamper‑proof, timeless, and unique to reliably represent a person. However, these traits often face limitations due to the technologies and instruments required for acquisition.
